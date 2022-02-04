@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Feed from "./components/Feed";
 import Leftbar from "./components/Leftbar";
 import Rightbar from "./components/Rightbar";
+import Add from "./components/Add";
 const useStyles = makeStyles((theme) => ({
   rightbar: {
     padding: theme.spacing(6),
@@ -33,6 +34,7 @@ function App() {
           <Rightbar />
         </Grid>
       </Grid>
+      <Add />
     </div>
   );
 }

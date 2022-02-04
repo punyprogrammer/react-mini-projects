@@ -6,6 +6,9 @@ export const theme = createTheme({
     // primary: {
     //   main: green[500],
     // },
+danger:{
+main:red[700],
+},
     notifications: {
       main: "#f50057",
     },
